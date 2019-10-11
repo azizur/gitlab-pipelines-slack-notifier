@@ -1,0 +1,23 @@
+{
+  "name": "gitlab-slack-notifier",
+  "version": "1.0.0",
+  "description": "An npm package for sending Slack notifications from GitLab Pipelines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizur/gitlab-slack-notifier.git"
+  },
+  "keywords": [],
+  "author": "Azizur Rahman <azizur@prodevstudio.com> (azizur.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azizur/gitlab-slack-notifier/issues"
+  },
+  "homepage": "https://github.com/azizur/gitlab-slack-notifier#readme",
+  "dependencies": {
+    "@slack/client": "^5.0.2"
+  }
+}
